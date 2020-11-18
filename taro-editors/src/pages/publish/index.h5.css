@@ -1,0 +1,179 @@
+/* 按钮：下一步 */
+.btn-nextstep {
+    position:fixed;
+    top: 0;
+    left: 0;
+    margin: 0 0;
+    height: 72px;
+    width: 100%;
+    box-shadow: 0px 2px 6px 2px rgba(0, 0, 0, 0.08);
+    padding-right: 49px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    font-size: 34px;
+    font-weight: 400;
+    color: #F95008;
+    background-color: #ffffff;
+    z-index: 9;
+}
+
+/* 标题 */
+.publish-title {
+    margin: 0 auto;
+    margin-top: 112px;
+    width: 95%;
+    height: 53px;
+    line-height: 53px;
+}
+
+.publish-title,
+.publish-title-placeholder {
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.publish-title-placeholder {
+    color: #A3A3A3;
+}
+
+/* 富文本编辑器 */
+.editor {
+    margin: 0 auto;
+    margin-top: 30px;
+    width: 95%;
+    height: 672px; 
+    min-height: 672px;   
+    font-size: 34px;
+    color: #4A4A4A;
+    line-height: 48px;
+    font-style: normal;
+}
+.editor::placeholder{
+    font-style: normal; 
+}
+
+/* 富文本编辑器 placeholder样式 */
+.ql-editor.ql-blank::before{
+    width: 681px;
+    height: 48px;
+    font-size: 34px;
+    font-weight: 400;
+    color: #CCCCCC;
+    line-height: 48px;
+    font-style: normal;
+}
+
+/* 富文本 - 图片默认样式 */
+.editor-img {
+    width: 100%;
+    height: auto;
+}
+
+/* 字数统计 */
+.font-count-box {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 690px;
+    height: 48px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.video-box {
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    width: 690px;
+    height: 388px;
+}
+
+.choose-box {
+    width: 200px;
+    height: 200px;    
+    background: #F3F4F6;
+    border-radius: 10px;
+    position: relative;
+}
+
+.forhelp2-upload-icon {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #D8D8D8;
+    font-size: 48px;
+}
+
+.forhelp2-upload-label {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 67px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 24px;
+    text-align: center;
+}
+
+.show-video {
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 690px;
+    height: 380px;
+    position: relative;
+}
+
+.video-del {
+    width: 46px;
+    height: 46px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 9;
+}
+
+.video {
+    position: absolute;
+    top: 0;
+    height: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.show {
+    visibility: visible;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/* 功能列表  */
+.func-list {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #F4F5F7;
+    border: 1px solid #E4E4E4;
+}
+
+.func-icon {
+    width: 90px;
+    height: 90px;
+}

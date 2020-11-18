@@ -1,0 +1,189 @@
+/* 页面全局 样式 */
+.page {
+    width: 100vw;
+    height: 100vh;
+    overflow-y: scroll;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    color: #4a4a4a;
+    font-family: Microsoft YaHei;
+}
+
+.bottom {
+    margin-bottom: 20px;
+}
+
+.arrow-right {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.item-box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-bottom: 24px;
+}
+
+.item-box .item-title {
+    margin-top: 24px;
+    margin-right: 30px;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+.item-box .item-img-box {
+    width: 100%;
+    height: 376px;
+    min-height: 376px;
+    position: relative;
+    color: #fff;
+    font-size: 30px;
+    margin-bottom: 24px;
+}
+
+.item-box .item-img-box .item-img {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%); 
+    object-fit: cover;
+}
+
+.item-img-box .item-img-label {
+    position: absolute;
+    left: 12px;
+    bottom: 12px;
+    z-index: 2;
+}
+
+.item-box .item-money-box {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.item-box .item-money-label {
+    font-size: 22px;
+}
+
+.item-box .item-money-num {
+    font-size: 32px;
+    color: #F95008;
+}
+
+.data-end {
+    font-size: 28px;
+    color: aquamarine;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.protocol-box {
+    margin-top: 40px;
+    margin-bottom: 90px;
+    width: 90%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.protocol-state {
+    width: 40px;
+    height: 40px;
+}
+
+.protocol-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+}
+
+.protocol-name {
+    color: #ff4002;
+}
+
+.button {    
+    width: 90%;
+    height: 103px;
+    background: linear-gradient(135deg, #FF7E3F 0%, #FF583C 100%);
+    box-shadow: 0px 7px 20px 0px rgba(255, 88, 60, 0.64);
+    border-radius: 10px;    
+    font-size: 34px;
+    font-weight: 400;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-unactive {
+    width: 90%;
+    height: 103px;
+    background: #FEE5DB;
+    border-radius: 10px;    
+    font-size: 34px;
+    font-weight: 400;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hr {
+    margin: 40px 0;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    background: #F3F4F6;
+}
+
+.hr2 {
+    width: 100%;
+    height: 2px;
+    background-color: #F3F4F6;
+}
+
+.hide {
+    display: none;
+    z-index: -99999;
+}
+
+.line-two {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+}
+
+button[size='mini'] {
+    line-height: 2.5 !important;
+}

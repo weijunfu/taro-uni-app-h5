@@ -1,0 +1,101 @@
+{
+  "miniprogramRoot": "dist/weapp/",
+  "projectname": "lz-donation",
+  "description": "纯粹的转捐社区",
+  "appid": "wx6b2a428dd3503e40",
+  "setting": {
+    "urlCheck": true,
+    "es6": false,
+    "enhance": true,
+    "postcss": true,
+    "preloadBackgroundData": false,
+    "minified": true,
+    "newFeature": false,
+    "coverView": true,
+    "nodeModules": true,
+    "autoAudits": false,
+    "showShadowRootInWxmlPanel": true,
+    "scopeDataCheck": false,
+    "uglifyFileName": false,
+    "checkInvalidKey": true,
+    "checkSiteMap": true,
+    "uploadWithSourceMap": true,
+    "compileHotReLoad": false,
+    "useMultiFrameRuntime": false,
+    "useApiHook": true,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    },
+    "enableEngineNative": false,
+    "bundle": true,
+    "useIsolateContext": true,
+    "useCompilerModule": true,
+    "userConfirmedUseCompilerModuleSwitch": false,
+    "packNpmManually": false,
+    "packNpmRelationList": [],
+    "minifyWXSS": true
+  },
+  "compileType": "miniprogram",
+  "simulatorType": "wechat",
+  "simulatorPluginLibVersion": {},
+  "libVersion": "2.13.2",
+  "condition": {
+    "plugin": {
+      "list": []
+    },
+    "game": {
+      "list": []
+    },
+    "gamePlugin": {
+      "list": []
+    },
+    "miniprogram": {
+      "list": [
+        {
+          "name": "pages/publish_next/index",
+          "pathName": "pages/publish_next/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/forhelp/index",
+          "pathName": "pages/forhelp/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/topnav_red/index",
+          "pathName": "pages/topnav_red/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/wxlogin/index",
+          "pathName": "pages/wxlogin/index",
+          "query": "",
+          "scene": null
+        },
+        {
+          "name": "pages/forhelp_donation/index",
+          "pathName": "pages/forhelp_donation/index",
+          "query": "id=1604372206296000",
+          "scene": null
+        },
+        {
+          "name": "pages/bindPhone/index",
+          "pathName": "pages/bindPhone/index",
+          "query": "id=1604372206296000",
+          "scene": null
+        },
+        {
+          "name": "pages/forhelp_detail/index",
+          "pathName": "pages/forhelp_detail/index",
+          "query": "id=1604372206296000",
+          "scene": null
+        }
+      ]
+    }
+  }
+}

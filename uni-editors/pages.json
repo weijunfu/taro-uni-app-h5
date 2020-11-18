@@ -1,25 +1,6 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-		    "path" : "pages/home/home",
-		    "style" :                                                                                    
-		    {
-		        "navigationBarTitleText": "首页",
-		        "enablePullDownRefresh": false
-		    }
-		    
-		},{
-			"path": "pages/forhelp/index",
-			"style": {
-				"navigationBarTitleText": "求助"
-			}
-		},{
-			"path": "pages/forhelp/forhelp",
-			"style": {
-				"navigationBarTitleText": "求助"
-			}
-		}
-        ,{
             "path" : "pages/publish/index",
             "style" :                                                                                    
             {
@@ -28,48 +9,12 @@
             }
             
         }
-        ,{
-            "path" : "pages/profile/profile",
-            "style" :                                                                                    
-            {
-                "navigationBarTitleText": "我的",
-                "enablePullDownRefresh": false
-            }
-            
-        }
+
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "纯粹的转捐社区",
+		"navigationBarTitleText": "富文本编辑",
 		"navigationBarBackgroundColor": "#F8F8F8",
 		"backgroundColor": "#F8F8F8"
-	},
-	"tabBar":{
-		"list":[
-			{
-				"pagePath":"pages/home/home",
-				"text":"首页",
-				"iconPath":"static/imgs/home.png",
-				"selectedIconPath":"static/imgs/home2.png"
-			},
-			{
-				"pagePath":"pages/forhelp/forhelp",
-				"text":"求助",
-				"iconPath":"static/imgs/forhelp.png",
-				"selectedIconPath":"static/imgs/forhelp2.png"
-			},
-			{
-				"pagePath":"pages/publish/index",
-				"text":"发布",
-				"iconPath":"static/imgs/publish.png",
-				"selectedIconPath":"static/imgs/publish2.png"
-			},
-			{
-				"pagePath":"pages/profile/profile",
-				"text":"我的",
-				"iconPath":"static/imgs/profile.png",
-				"selectedIconPath":"static/imgs/profile2.png"
-			}
-		]
 	}
 }

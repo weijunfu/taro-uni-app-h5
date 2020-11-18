@@ -304,8 +304,8 @@
 						)
 						// console.log('h', uni.getStorageSync('H5_PUBLISH'))
 						
-						//跳转 H5 发布第二步
-						window.location.href = 'https://www.zhuanjuan.net/h5/index.html#/pages/publish_next/index'
+						//跳转 至 Taro
+						window.location.href = '#/pages/publish_next/index'
 					}
 				})
 			}
